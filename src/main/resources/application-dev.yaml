@@ -1,9 +1,9 @@
 # application-dev.yml (PostgreSQL)
 spring:
   datasource:
-    url: jdbc:postgresql://${DB_HOST:localhost}:${DB_PORT:5432}/${DB_NAME:app_dev}
+    url: jdbc:postgresql://${DB_HOST:localhost}:${DB_PORT:5432}/${DB_NAME:dslist_dev}?currentSchema=dslist
     username: ${DB_USER:postgres}
-    password: ${DB_PASSWORD:postgres}
+    password: ${DB_PASSWORD:0123456789}
     driver-class-name: org.postgresql.Driver
 
   jpa:
