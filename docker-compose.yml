@@ -24,7 +24,7 @@ services:
     depends_on:
       - db
     environment:
-      SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/dslist_dev
+      SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/dslist_dev?currentSchema=dslist
       SPRING_DATASOURCE_USERNAME: postgres
       SPRING_DATASOURCE_PASSWORD: postgres
 
